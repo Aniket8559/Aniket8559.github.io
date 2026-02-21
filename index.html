@@ -14,28 +14,34 @@ text-align:center;
 margin-top:150px;
 }
 button{
-padding:14px 30px;
+padding:16px 35px;
 border:none;
 outline:none;
 color:white;
-font-size:20px;
+font-size:22px;
 cursor:pointer;
-border-radius:50px;
-background:linear-gradient(45deg, #ff0000, #ff4d4d, #ff0000);
-background-size:200%;
-animation:glow 3s linear infinite;
-box-shadow:0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 40px #ff0000;
+border-radius:60px;
+background:linear-gradient(45deg, #ff0000, #ff1a1a, #ff0000);
+background-size:300%;
+animation:glow 2s linear infinite;
+box-shadow:0 0 20px #ff0000,
+           0 0 40px #ff0000,
+           0 0 60px #ff0000,
+           0 0 100px #ff0000;
 transition:0.3s;
 }
 
 button:hover{
-transform:scale(1.1);
-box-shadow:0 0 20px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+transform:scale(1.15);
+box-shadow:0 0 30px #ff0000,
+           0 0 60px #ff0000,
+           0 0 90px #ff0000,
+           0 0 140px #ff0000;
 }
 
 @keyframes glow{
 0%{background-position:0%;}
-100%{background-position:200%;}
+100%{background-position:300%;}
 }
 </style>
 </head>
